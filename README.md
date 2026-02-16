@@ -18,7 +18,7 @@ Reinforce control systems intuition by implementing:
 -   Robust control (Sliding Mode).
 -   Multi-agent consensus.
 -   Reinforcement learning.
--   Hybrid classical--learning controllers.
+-   Hybrid classical-learning controllers.
 
 Each day is implemented from scratch with clean simulations and
 structured notes.
