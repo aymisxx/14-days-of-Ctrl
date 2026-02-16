@@ -1,0 +1,6 @@
+Day 1 notes:
+- first_order_step.png: varying τ shifts single pole -> speed changes.
+- second_order_damping.png: varying ζ shows overshoot/oscillation tradeoff.
+- poles_vs_response.png: complex poles ↔ overshoot; real poles ↔ no overshoot.
+- pd_response.png: derivative adds damping; reduces overshoot.
+- pid_response.png: integral reduces steady-state error but may add overshoot.
