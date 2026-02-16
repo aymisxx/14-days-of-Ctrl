@@ -90,11 +90,11 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 This repository emphasizes:
 
--   Minimal external abstractions
--   Mathematical transparency
--   Clean reproducible simulations
--   Explicit comparison between methods
--   Engineering tradeoff analysis (stability, robustness, control effort)
+-   Minimal external abstractions.
+-   Mathematical transparency.
+-   Clean reproducible simulations.
+-   Explicit comparison between methods.
+-   Engineering tradeoff analysis (stability, robustness, control effort).
 
 The goal is not just working code, but structural understanding.
 
