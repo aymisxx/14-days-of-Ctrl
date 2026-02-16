@@ -48,19 +48,22 @@ structured notes.
 
 Each day follows:
 
-dayXX_topic/\
-├── main.py\
-├── model.py\
-├── simulate.py\
-├── README.md\
+```
+dayXX_topic/
+├── main.py
+├── model.py
+├── simulate.py
+├── README.md
 └──results/
+```
 
 Each daily README includes:
-- Problem formulation.\
-- Mathematical model.\
-- Controller design.\
-- Simulation results.\
-- Key takeaways.\
+
+- Problem formulation.
+- Mathematical model.
+- Controller design.
+- Simulation results.
+- Key takeaways.
 - What was tricky / limitations.
 
 ------------------------------------------------------------------------
@@ -69,14 +72,17 @@ Each daily README includes:
 
 Create a virtual environment:
 
-python -m venv venv\
-source .venv/bin/activate\
-pip install -r requirements.txt\
+```
+python -m venv venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 If using NVIDIA GPU (CUDA-enabled PyTorch):
 
-pip install -r requirements.txt --extra-index-url
-https://download.pytorch.org/whl/cu130
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
 
 ------------------------------------------------------------------------
 
