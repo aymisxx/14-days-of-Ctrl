@@ -108,7 +108,7 @@ MIT License. See LICENSE for details.
 
 ## Author
 
-#### Ayushman Mishra
+> ## Ayushman Mishra
 
 > https://github.com/aymisxx
 
