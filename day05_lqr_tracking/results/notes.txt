@@ -1,0 +1,13 @@
+Day05: LQR Tracking
+wn=1.0, zeta=0.2
+Plain LQR:
+K_plain = [[2.31662479 2.00691703]]
+
+Augmented LQR:
+Kx = [[7.1644076  3.53558321]]
+Ki = [[-7.07106781]]
+
+Observations:
+- Plain LQR is a regulator; tracking step reference leaves steady-state error.
+- Integral augmentation drives steady-state error to ~0 for constant reference.
+- Control effort increases slightly with integral action.
