@@ -1,0 +1,36 @@
+Day06: Nonlinear Pendulum + Linearization + LQR
+
+Params: g=9.81  l=1.0  m=1.0
+Sim: T=10.0, dt=0.001, nonlinear_integrator=rk4, u_limit=None
+
+LQR: Q=diag(20.0, 2.0)  R=0.5
+K = [[1.8620221  2.77921647]]
+
+[Nonlinear small]
+  peak |theta| = 0.2000 rad
+  peak |omega| = 0.4084 rad/s
+  RMS(u) = 0.2195
+  peak |u| = 0.9768
+  settling_time(theta) ~ 2.46 s
+
+[Linear small]
+  peak |theta| = 0.2000 rad
+  peak |omega| = 0.4100 rad/s
+  RMS(u) = 0.2204
+  peak |u| = 0.9810
+  settling_time(theta) ~ 2.459 s
+
+[Nonlinear large]
+  peak |theta| = 1.0000 rad
+  peak |omega| = 1.9347 rad/s
+  RMS(u) = 1.0509
+  peak |u| = 4.6094
+  settling_time(theta) ~ 2.492 s
+
+[Linear large]
+  peak |theta| = 1.0000 rad
+  peak |omega| = 2.0501 rad/s
+  RMS(u) = 1.1019
+  peak |u| = 4.9051
+  settling_time(theta) ~ 2.459 s
+
