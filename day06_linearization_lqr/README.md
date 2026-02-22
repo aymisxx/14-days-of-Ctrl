@@ -1,4 +1,4 @@
-# Day06: **Linearization** (LQR)
+# Day 06: **Linearization** (LQR)
 
 ### Nonlinear Pendulum → Linearization → LQR
 
